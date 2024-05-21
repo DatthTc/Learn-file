@@ -1,0 +1,18 @@
+.box {
+  counter-reset: section; /*tạo ra môt biến đếm, reset = 0 */
+}
+h2 {
+  counter-increment: section; /*tăng biến đếm của h2 lên một*/
+  counter-reset: sub-section; /*tạo biến đếm và reset h3 */
+}
+/* thêm vào trước thằng h2 */
+h2::before {
+  content: "phần " counter(section) ":";
+}
+h3 {
+  counter-increment: sub-section; /* Tăng biến đếm của thằng h3 lên */
+}
+/* thêm vào trước thằng h3 */
+h3::before {
+  content: "Phần " counter(sub-section) "." counter(sub-section);
+}

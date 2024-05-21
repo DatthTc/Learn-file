@@ -1,0 +1,37 @@
+.boxbox1 {
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  background-color: rgb(196, 196, 248);
+  border: 10px solid purple;
+  margin-left: 300px;
+  border-radius: 10px;
+}
+.boxbox2 {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  background-color: rgb(22, 202, 76);
+  border: 20px solid rgb(8, 7, 8);
+  /* margin-left: 160px; */
+  margin-left: 240px;
+  border-radius: 10px;
+}
+.boxbox3 {
+  width: 50px;
+  height: 150px;
+  padding: 20px;
+  background-color: rgb(149, 149, 241);
+  border: 10px solid rgb(196, 7, 7);
+  /* margin-left: 340px; */
+  margin-left: 260px;
+}
+.boxbox4 {
+  width: 50px;
+  height: 150px;
+  padding: 20px;
+  background-color: rgb(149, 149, 241);
+  border: 10px solid rgb(196, 7, 7);
+  /* margin-left: 340px; */
+  margin-left: 260px;
+}

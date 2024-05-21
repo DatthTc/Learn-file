@@ -1,0 +1,10 @@
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 100px;
+  background-color: pink;
+  /* Tao 1 bong */
+  box-shadow: -29px -29px 17px -7px;
+  /* tao nhieu bong */
+  box-shadow: 160px 0px blue, 0px 160px red, 160px 0px green, 160px 160px yellow;
+}

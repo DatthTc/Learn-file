@@ -1,0 +1,10 @@
+a[href] {
+  color: red;
+}
+/* vì là attribute (thuộc tính ) nên phải để trong [] */
+/* [target="blank"] {
+  color: rgb(134, 112, 116);
+} */
+[title*="click"] {
+  color: green;
+}

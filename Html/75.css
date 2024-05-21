@@ -1,0 +1,22 @@
+.text_h1 {
+  background-color: #4158d0; /* Phòng trường hợp trình duyệt không hỗ trợ color */
+  background-image: linear-gradient(
+    45deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text; /*Giúp cho mọi trình duyệt hỗ trợ */
+  color: transparent;
+  /* backdrop-filter: blur(2px);  ĐỘ MỜ
+  backdrop-filter: brightness(60%); ĐỘ SÁNG
+  backdrop-filter: contrast(40%); SỰ TƯƠNG PHẢN
+  backdrop-filter: drop-shadow(4px 4px 10px blue); Bóng
+  backdrop-filter: grayscale(30%); XÁM CỔ
+  backdrop-filter: hue-rotate(120deg); XOAY SẮC
+  backdrop-filter: invert(70%); ĐẢO NGƯỢC MÀU
+  backdrop-filter: opacity(20%); ĐỘ MỜ ĐỤC
+  backdrop-filter: sepia(90%); MẤT MÀU ???
+  backdrop-filter: saturate(80%);  ĐỘ BÃO HOÀ */
+}

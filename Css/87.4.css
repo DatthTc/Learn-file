@@ -1,0 +1,29 @@
+.mes-bottom a {
+  font-size: 2rem;
+  color: #ffcc70;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  margin: 20px;
+  /* top: 0px;
+  left: 0px; */
+}
+.nav {
+  background: #555;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  color: wheat;
+  /* margin-left: 20px; */
+  padding: 30px;
+  text-decoration: none;
+}
+h1 {
+  padding-top: 50px;
+}

@@ -1,0 +1,20 @@
+.container {
+  background-color: gainsboro;
+}
+.container > h1 {
+  font-size: 50px;
+}
+.container p {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.container img {
+  max-height: 600px;
+  max-width: 600px;
+}
+.container {
+  background-color: rgb(81, 81, 207);
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
+}

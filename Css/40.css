@@ -1,0 +1,42 @@
+div {
+  color: yellow;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+
+  /* padding : đệm */
+  padding: 20px 20px;
+  /* padding-top,bottom,left,right */
+  /* Trên dưới - Trái phải */
+  padding: 20px 30px;
+  /* Trên - Trái Phải  - Dưới */
+  padding: 20px 30px 20px;
+  /* Trên - Trái- Dưới - Phải*/
+  padding: 20px 30px 20px 30px;
+
+  /* bodder : Viền */
+
+  border: 5px solid blue;
+
+  /* border-top: 10px ridge whitesmoke;
+  border-bottom: 3px dashed blue;
+  border-right: 10px solid palevioletred;
+  border-left: 5px groove yellow; */
+
+  /* border-width: 20px 20px 30px 40px;
+  border-style: double dashed dotted groove;
+  border-color: red pink green yellow; */
+
+  /* border-radius: 30px; ghi tường minh */
+
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+
+  /* margin : Khoảng cách */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

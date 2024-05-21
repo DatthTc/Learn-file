@@ -1,0 +1,55 @@
+/* # tác dụng lên selector khi di chuyển con chuột qua  */
+/* liên quan đên text chữ */
+a.baba:hover {
+  color: pink;
+  font-size: 30px;
+}
+div.divthu1 {
+  background-color: red;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+div.divthu1:hover {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+/* # tác dụng lên selector khi nhấn , giữ chuột */
+div.divthu2:active {
+  background-color: green;
+}
+/* # nghịch tý */
+button.btn {
+  width: 10em;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+button.btn:hover {
+  background-color: bisque;
+}
+/* link vs visited - Liên quan đến các link liên kết */
+/* Đổi màu liên kết Giúp nổi bật hơn */
+a.Clickđi:link {
+  color: orange;
+}
+/* đổi màu khi đã nhấn vào link rồi,Giúp ng dùng dễ nhận biết  */
+a.Clickđe:visited {
+  color: green;
+}
+/* empty tác động lên các <div> không có nội dung */
+div.trống:empty {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+/* target */
+h2:target {
+  color: blue;
+}

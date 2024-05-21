@@ -1,0 +1,8 @@
+/* lấy ra những selector không phải p */
+.top:not(p) {
+  color: red;
+}
+/* lấy ra những thằng con không phải kiểu đầu tiên  */
+.top:not(:first-of-type) {
+  color: yellow;
+}

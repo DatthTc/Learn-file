@@ -1,0 +1,12 @@
+div {
+  width: 200px;
+  height: 200px;
+
+  border: 10px solid red; /*tạo ra  1 đường viền với style là solid */
+  margin: 20px; /* tao ra khoảng cách giữa các phần tử trên trang */
+
+  /* chỉ là tạo 1 đường viền bao quanh mép ngoài của đối tượng từ thằng Border */
+  outline: 10px solid blue;
+  /* cũng tạo ra 1 đường viền bao quanh mép ngoài thằng border nhưng trong suốt */
+  outline-offset: 100px;
+}

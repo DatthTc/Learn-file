@@ -1,0 +1,22 @@
+/* một số thẻ không áp dụng được trong inline
+padding-top  padding-bottom */
+
+body {
+  background-color: blue;
+}
+a {
+  text-decoration: none;
+  /* cursor: none; */
+  background-color: rgb(91, 212, 228);
+  border-radius: 999px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 10px;
+  color: black;
+  margin-top: 30px;
+}
+a:hover {
+  background-color: black;
+  color: pink;
+}

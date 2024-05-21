@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+}
+.view-more a {
+  position: absolute;
+  right: 10px;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.card-title {
+  font-size: 15px;
+  display: inline;
+}
+
+.icon {
+  height: 30px;
+}
+
+.col {
+  cursor: pointer;
+}
+
+.rating img {
+  height: 20px;
+}
+
+.button-and-rating-container {
+  position: absolute;
+  bottom: 15px;
+}
+
+.button-and-rating-container button {
+  width: 297px;
+}

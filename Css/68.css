@@ -1,0 +1,9 @@
+li {
+  list-style-type: none; /*bỏ đi thuộc tinh*/
+  line-height: 20px;
+  margin-top: 5px;
+}
+.fa-solid,
+.fa-brands {
+  color: red;
+}

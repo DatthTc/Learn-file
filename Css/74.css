@@ -1,0 +1,10 @@
+.box {
+  height: 300px;
+  background-image: url(../img/anhsamac.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  background-attachment: scroll; /* ảnh sẽ scroll theo chữ */
+  background-attachment: local; /* ảnh sẽ cuốn theo chữ */
+  background-attachment: fixed; /* ảnh giữ nguyên */
+}
